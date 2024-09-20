@@ -41,9 +41,10 @@ export default function MyJourney() {
         unable to pull myself away from the computer in my free time since
         completing the program. I just can’t get enough.
         <br></br>
-        <br></br>My current and future plans are to complete the NextJS version
-        of my project, and deploy it on my virtual machine. I also want to take
-        my back-end capstone, which has a Python/Django API, and rewrite the
+        <br></br>
+        My current and future plans are to complete the NextJS version of my
+        project, and deploy it on my virtual machine. I also want to take my
+        back-end capstone, which has a Python/Django API, and rewrite the
         ReactJS to NextJS and get it deployed.
       </h4>
     </div>
