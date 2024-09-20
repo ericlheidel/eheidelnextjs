@@ -1,7 +1,18 @@
+import Link from "next/link"
+import { FaHome } from "react-icons/fa"
+
 export default function MyJourney() {
   return (
     <div className="mt-6">
-      <h3 className="text-3xl font-bold text-left p-2">My Journey</h3>
+      <div className="md:block hidden">
+        <h3 className="text-3xl font-bold text-left p-2">My Journey</h3>
+      </div>
+      <Link href="#home">
+        <div className="md:hidden flex flex-row justify-between">
+          <h3 className="text-3xl font-bold text-left p-2">My Journey</h3>
+          <FaHome size={40} color="aqua" className="mt-auto" />
+        </div>
+      </Link>
       <div className="mt-2 mb-4 w-full border border-gray-500"></div>
       <h4 className="md:text-xl text-left ">
         My Journey In November of 2023 I decided to start a journey that had

@@ -5,10 +5,6 @@ import resume_2 from "../assets/Eric_Heidel_Resume_JPG_2.jpg"
 export default function Resume() {
   return (
     <div>
-      <header className="text-center">
-        <h1 className="">My Resume</h1>
-      </header>
-
       <div className="flex flex-col gap-4 items-center">
         <Image
           src={resume_1}
