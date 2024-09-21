@@ -41,7 +41,7 @@ export default function MyPast() {
           className="text-blue-400"
         >
           sold out crowd of 103,000+ at Tiger Stadium at LSU that was seen on
-          the school’s seismograph
+          the school&apos;s seismograph
         </a>
         , to an{" "}
         <a
@@ -58,10 +58,10 @@ export default function MyPast() {
         networking, in-show control of camera irises, and programming, deploying
         and operating video servers playing video content during specific
         moments during the concert are all part of the job. Recording and
-        monitoring of all cameras and director’s cut are also my responsibility.
-        Much like the ever growing world of development. Maintaining and
-        repairing equipment is an essential part of the job as well because if
-        your equipment isn’t working, neither are you.
+        monitoring of all cameras and director&apos;s cut are also my
+        responsibility. Much like the ever growing world of development.
+        Maintaining and repairing equipment is an essential part of the job as
+        well because if your equipment isn&apos;t working, neither are you.
         <br></br>
         <br></br>
         The video production industry deals with a constant, quickly evolving

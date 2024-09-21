@@ -39,7 +39,7 @@ export default function MyJourney() {
         machine. That was a great learning experience in and of itself. I am
         currently learning NextJS and rewriting my ReactJS capstone. I have been
         unable to pull myself away from the computer in my free time since
-        completing the program. I just can’t get enough.
+        completing the program. I just can&apos;t get enough.
         <br></br>
         <br></br>
         My current and future plans are to complete the NextJS version of my
