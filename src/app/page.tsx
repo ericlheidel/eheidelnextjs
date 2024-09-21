@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { color1 } from "../../utility"
-import my_image from "./assets/my_image.jpg"
 import MyLinks from "./components/my_links/my_links"
 import AboutMe from "./components/ME/about_me/about_me"
 import MyJourney from "./components/ME/my_journey/my_journey"
@@ -20,7 +19,7 @@ export default function Home() {
         <div className="mx-auto text-center">
           <div>
             <Image
-              src={my_image}
+              src={"/assets/my_image.jpg"}
               alt="Vite logo"
               width={250}
               height={250}
@@ -51,24 +50,9 @@ export default function Home() {
         >
           <MyProjects />
         </div>
-        <div
-          id="my_skills"
-          className="md:w-1/2 w-[95%] mt-6 h-fit text-center test"
-        >
+        <div id="my_skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <MySkills />
         </div>
-        {/* <div
-          id="my_skills"
-          className="md:w-1/2 w-[95%] mt-6 h-fit text-center test"
-        >
-          <MySkillsComputer />
-        </div>
-        <div
-          id="my_skills"
-          className="md:w-1/2 w-[95%] mt-6 h-fit text-center test"
-        >
-          <MySkillsOther />
-        </div> */}
       </div>
     </>
   )
