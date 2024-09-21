@@ -2,7 +2,7 @@ import Link from "next/link"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { IoDocumentText } from "react-icons/io5"
 
-export const MyLinks = () => {
+export default function MyLinks() {
   return (
     <div>
       <div className={`flex flex-row justify-evenly text-4xl`}>

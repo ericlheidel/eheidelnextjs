@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FaHome } from "react-icons/fa"
 
-export const AboutMe = () => {
+export default function AboutMe() {
   return (
     <div>
       <div className="mt-6">
