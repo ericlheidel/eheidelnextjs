@@ -52,7 +52,9 @@ export default function Home() {
         </div>
         <div id="my_skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <MySkills />
+          <div className="mt-6 mb-4 w-full border border-gray-500"></div>
         </div>
+        <footer className="mt-2">Created by: Eric Heidel, 2024</footer>
       </div>
     </>
   )
