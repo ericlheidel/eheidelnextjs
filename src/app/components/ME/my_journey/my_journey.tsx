@@ -15,18 +15,18 @@ export default function MyJourney() {
       </Link>
       <div className="mt-2 mb-4 w-full border border-gray-500"></div>
       <h4 className="md:text-xl text-left ">
-        My Journey In November of 2023 I decided to start a journey that had
-        been on my mind for years. I began a six month, Full-Stack Bootcamp with
-        Nashville Software School. I chose the intensive six month option that
-        they offer because I wanted to immerse myself in this new experience of
-        learning how to code and how to work in a development specific team
-        setting. The front-end portion of the program consisted of ReactJS,
-        HTML, CSS, and JavaScript for the first three months. The second three
-        months of the program focused on back-end. Nashville Software School
-        offers two different options for the back-end language. One being Python
-        and Django, the other being C# and .NET. I chose the Python and Django
-        route for my journey. The program was amazing and solidified what I
-        already knew, I want to be a developer.
+        In November of 2023 I decided to start a journey that had been on my
+        mind for years. I began a six month, Full-Stack Bootcamp with Nashville
+        Software School. I chose the intensive six month option that they offer
+        because I wanted to immerse myself in this new experience of learning
+        how to code and how to work in a development specific team setting. The
+        front-end portion of the program consisted of ReactJS, HTML, CSS, and
+        JavaScript for the first three months. The second three months of the
+        program focused on back-end. Nashville Software School offers two
+        different options for the back-end language. One being Python and
+        Django, the other being C# and .NET. I chose the Python and Django route
+        for my journey. The program was amazing and solidified what I already
+        knew, I want to be a developer.
         <br></br>
         <br></br>I completed the program in May of 2024. After completing the
         program, I immediately began working and learning through their C# and

@@ -6,12 +6,16 @@ export const MyLinks = () => {
   return (
     <div>
       <div className={`flex flex-row justify-evenly text-4xl`}>
-        <div>
-          <FaGithub size={50} color="aqua" />
-        </div>
-        <div>
-          <FaLinkedin size={50} color="aqua" />
-        </div>
+        <Link href="https://github.com/ericlheidel" target="_blank">
+          <div>
+            <FaGithub size={50} color="aqua" />
+          </div>
+        </Link>
+        <Link href="https://www.linkedin.com/in/ericleeheidel/" target="_blank">
+          <div>
+            <FaLinkedin size={50} color="aqua" />
+          </div>
+        </Link>
         <Link href="/resume">
           <div className="my-auto mr-2 hover:color:red">
             <IoDocumentText
