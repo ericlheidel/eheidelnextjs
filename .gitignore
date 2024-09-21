@@ -36,5 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 src/app/assets/skills
-
 src/app/assets/paintings
