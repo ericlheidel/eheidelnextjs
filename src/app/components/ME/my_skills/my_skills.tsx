@@ -27,11 +27,11 @@ export default function MySkillsCoding() {
 
         {/* ⬇️ MY SKILLs --> //rr CODING ⬇️ */}
         <div className="mt-2 mb-2 w-full border border-gray-500"></div>
-
         <div className="w-fit">
-          <h4 className="mt-4 mb-4 ml-4 text-2xl text-left">Coding</h4>
+          <h4 className="mt-4 mb-4 ml-4 text-2xl font-semibold text-left">
+            Coding
+          </h4>
         </div>
-        {/* <h4 className="md:text-xl text-left ">This is My Coding Skills</h4> */}
         <div className="md:hidden">
           <MySkillsCodingMobile />
         </div>
@@ -43,7 +43,9 @@ export default function MySkillsCoding() {
         {/* ⬇️ MY SKILLs --> //gg COMPUTER ⬇️ */}
         <div className="w-full">
           <div className="mt-4 mb-2 w-full border border-gray-500"></div>
-          <h4 className="mt-4 mb-4 ml-4 text-2xl text-left">Computer</h4>
+          <h4 className="mt-4 mb-4 ml-4 text-2xl font-semibold text-left">
+            Computer
+          </h4>
         </div>
         <div className="md:hidden block">
           <MySkillsComputerMobile />
@@ -56,7 +58,9 @@ export default function MySkillsCoding() {
         {/* ⬇️ MY SKILLs --> //mm OTHER ⬇️ */}
         <div className="w-full">
           <div className="mt-4 mb-2 w-full border border-gray-500"></div>
-          <h4 className="mt-4 mb-2 ml-4 text-2xl text-left">Other</h4>
+          <h4 className="mt-4 mb-2 ml-4 text-2xl font-semibold text-left">
+            Other
+          </h4>
         </div>
         <div className="md:hidden block">
           <MySkillsOtherMobile />
