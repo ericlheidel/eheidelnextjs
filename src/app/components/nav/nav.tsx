@@ -48,7 +48,7 @@ export const Nav = () => {
             <Link href="#my_skills">
               <div className="ml-8">My Skills</div>
             </Link>
-            <Link href="my_projects">
+            <Link href="#my_projects">
               <div className="ml-8 mr-12">My Projects</div>
             </Link>
           </div>
@@ -124,7 +124,7 @@ export const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    href="my_projects"
+                    href="#my_projects"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)

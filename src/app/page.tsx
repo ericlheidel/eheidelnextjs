@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <div
           id="my_projects"
-          className="md:w-1/2 w-[95%] mt-6 h-fit text-center test"
+          className="md:w-1/2 w-[95%] mt-6 h-fit text-center"
         >
           <MyProjects />
         </div>

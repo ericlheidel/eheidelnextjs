@@ -1,5 +1,7 @@
 import Link from "next/link"
 import { FaHome } from "react-icons/fa"
+import { MyProjectsMobile } from "./my_projects_mobile"
+import { MyProjectsDesktop } from "./my_projects_desktop"
 
 export default function MyProjects() {
   return (
@@ -15,7 +17,12 @@ export default function MyProjects() {
           </div>
         </Link>
         <div className="mt-2 mb-4 w-full border border-gray-500"></div>
-        <h4 className="md:text-xl text-left ">This is My Projects</h4>
+        <div className="md:hidden block">
+          <MyProjectsMobile />
+        </div>
+        <div className="md:block hidden">
+          <MyProjectsDesktop />
+        </div>
       </div>
     </div>
   )

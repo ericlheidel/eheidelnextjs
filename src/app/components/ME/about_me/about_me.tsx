@@ -35,16 +35,15 @@ export default function AboutMe() {
           here and there when I have the time. It is a fun hobby that satisfies
           my engineering side. I find it enjoyable to follow a set of
           instructions to create a final product.
-          <br></br>
+          {/* <br></br>
           <br></br>
           Although I haven&apos;t done it in a while, I was very big into
           painting. I would create geometric designs on thin wood using spray
           paint and painters tape. Again, a fun hobby that achieves that step by
           step process that I enjoy.{" "}
           <a href="/paintings" className="text-blue-400">
-            Feel free to check out some of my old paintings
-          </a>
-          .
+            Feel free to check out some of my old paintings.
+          </a> */}
         </h4>
       </div>
     </div>
