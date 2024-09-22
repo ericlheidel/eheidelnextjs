@@ -35,6 +35,13 @@ export default function AboutMe() {
           here and there when I have the time. It is a fun hobby that satisfies
           my engineering side. I find it enjoyable to follow a set of
           instructions to create a final product.
+          <br></br>
+          <br></br>I also have a large collection of vinyl records. I have
+          always loved listening to music which probably led me to working in
+          the music entertainment industry. I began collecting records in 6th
+          grade when I was given my first turntable for my birthday. I even have
+          a battery powered, build-it-yourself turntable with built in speakers
+          for listening out on the porch or patio.
           {/* <br></br>
           <br></br>
           Although I haven&apos;t done it in a while, I was very big into
