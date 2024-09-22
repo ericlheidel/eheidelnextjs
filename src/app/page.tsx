@@ -54,7 +54,11 @@ export default function Home() {
           <MySkills />
           <div className="mt-6 mb-4 w-full border border-gray-500"></div>
         </div>
-        <footer className="mt-2">Created by: Eric Heidel, 2024</footer>
+        <footer className="mt-2">
+          <p className="text-center">Created by Eric Heidel, 2024</p>
+          <p className="mt-2 text-center">Created with NextJS</p>
+          <p className="mt-2 text-center">Styled with TailwindCSS</p>
+        </footer>
       </div>
     </>
   )
