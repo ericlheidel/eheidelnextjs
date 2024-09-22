@@ -1,7 +1,15 @@
 import Link from "next/link"
 import { FaHome } from "react-icons/fa"
-import { MyProjectsMobile } from "./my_projects_mobile"
-import { MyProjectsDesktop } from "./my_projects_desktop"
+import {
+  HeidelClockProjectMobile,
+  OmgShoesProjectMobile,
+  PaintkillerzProjectMobile,
+} from "./my_projects_mobile"
+import {
+  HeidelClockProjectDesktop,
+  OmgShoesProjectDesktop,
+  PaintkillerzProjectDesktop,
+} from "./my_projects_desktop"
 
 export default function MyProjects() {
   return (
@@ -18,10 +26,18 @@ export default function MyProjects() {
         </Link>
         <div className="mt-2 mb-4 w-full border border-gray-500"></div>
         <div className="md:hidden block">
-          <MyProjectsMobile />
+          <OmgShoesProjectMobile />
+          <div className="mt-2 mb-4 w-full border border-gray-500"></div>
+          <PaintkillerzProjectMobile />
+          <div className="mt-2 mb-4 w-full border border-gray-500"></div>
+          <HeidelClockProjectMobile />
         </div>
         <div className="md:block hidden">
-          <MyProjectsDesktop />
+          <OmgShoesProjectDesktop />
+          <div className="mt-2 mb-4 w-full border border-gray-500"></div>
+          <PaintkillerzProjectDesktop />
+          <div className="mt-2 mb-4 w-full border border-gray-500"></div>
+          <HeidelClockProjectDesktop />
         </div>
       </div>
     </div>
