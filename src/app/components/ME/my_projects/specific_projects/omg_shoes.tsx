@@ -25,6 +25,9 @@ export const OmgShoesDiv = () => {
         <div className="ml-4 font-semibold">
           Front-end: ReactJS<br></br>Back-end: C#/.NET
         </div>
+        <p className="ml-4 italic text-pink-400">
+          **this version is not mobile friendly
+        </p>
         <br></br>
         <div className="ml-6">
           Originally my front-end (JSON server) Capstone Project during my time
@@ -38,7 +41,10 @@ export const OmgShoesDiv = () => {
           collections.<br></br>
           <br></br>I deployed this project on my own using a virtual machine.
           Full write-up in the{" "}
-          <Link href="https://github.com/ericlheidel/OmgShoesCSharp/blob/main/README.md">
+          <Link
+            href="https://github.com/ericlheidel/OmgShoesCSharp/blob/main/README.md"
+            target="_blank"
+          >
             <p className="inline text-blue-400">README.md.</p>
             <br></br>
           </Link>
@@ -51,6 +57,9 @@ export const OmgShoesDiv = () => {
           >
             <p className="inline text-blue-400">the repo.</p>
           </Link>
+          <p className="text-pink-400 italic">
+            **this version will be mobile friendly
+          </p>
         </div>
       </div>
     </div>
