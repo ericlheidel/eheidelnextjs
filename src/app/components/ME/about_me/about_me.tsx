@@ -16,15 +16,15 @@ export default function AboutMe() {
         </Link>
         <div className="mt-2 mb-4 w-full border border-gray-500"></div>
         <h4 className="md:text-xl text-left ">
-          I am from the town of Signal Mountain located in Chattanooga, TN. I
-          currently live in Nashville, TN and have been here since 2009.
-          Previous to moving to Nashville, I attended and graduated from The
-          University of Tennessee at Knoxville with a Bachelors in Arts for
-          Speech Communications. After college I moved to Washington, DC for
-          about two years where I began a crash course, trial-by-fire, video
-          production learning experience. I quickly grew from sorting cables to
-          being an engineer. Once I moved to Nashville, TN, I began my touring
-          experience.
+          I was born and raised in Signal Mountain, TN located in the
+          Chattanooga, TN area. I currently live in Nashville, TN and have been
+          here since 2009. Previous to moving to Nashville, I attended and
+          graduated from The University of Tennessee at Knoxville with a
+          Bachelors in Arts for Speech Communications. After college I moved to
+          Washington, DC for about two years where I began a crash course,
+          trial-by-fire, video production learning experience. I quickly grew
+          from sorting cables to being an engineer. Once I moved to Nashville,
+          TN, I began my touring experience.
           <br></br>
           <br></br>I am very engineering-minded, but I also have a creative
           side. I have a new found excitement for coding and development.
