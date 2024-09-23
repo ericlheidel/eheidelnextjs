@@ -17,6 +17,8 @@ export const MySkillsCodingMobile = () => {
               alt={`${skill.name} icon`}
               width={75}
               height={75}
+              priority
+              unoptimized
             />
           )
         })}
@@ -37,6 +39,8 @@ export const MySkillsComputerMobile = () => {
               alt={`${skill.name} icon`}
               width={75}
               height={75}
+              priority
+              unoptimized
             />
           )
         })}
@@ -57,6 +61,8 @@ export const MySkillsOtherMobile = () => {
               alt={`${skill.name} icon`}
               width={100}
               height={75}
+              priority
+              unoptimized
             />
           )
         })}

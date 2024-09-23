@@ -20,7 +20,7 @@ export default function Home() {
           <div>
             <Image
               src={"/assets/my_image.jpg"}
-              alt="Vite logo"
+              alt="Image of Eric Heidel"
               width={250}
               height={250}
               className="rounded-3xl mb-4 mx-auto"

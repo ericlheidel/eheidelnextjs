@@ -17,6 +17,8 @@ export const MySkillsCodingDesktop = () => {
               alt={`${skill.name} icon`}
               width={110}
               height={110}
+              priority
+              unoptimized
             />
           )
         })}
@@ -37,6 +39,8 @@ export const MySkillsComputerDesktop = () => {
               alt={`${skill.name} icon`}
               width={110}
               height={110}
+              priority
+              unoptimized
             />
           )
         })}
@@ -57,6 +61,8 @@ export const MySkillsOtherDesktop = () => {
               alt={`${skill.name} icon`}
               width={110}
               height={110}
+              priority
+              unoptimized
             />
           )
         })}

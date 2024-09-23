@@ -5,16 +5,20 @@ export default function Resume() {
     <div>
       <div className="flex flex-col gap-4 items-center">
         <Image
-          src={"/assets/Eric_Heidel_Resume_JPG_1.jpg"}
+          src="/assets/Eric_Heidel_Resume_JPG_1.jpg"
           alt="Page Number 1 of Eric Heidel's Resume"
           width={1000}
           height={1000}
+          priority
+          unoptimized
         />
         <Image
-          src={"/assets/Eric_Heidel_Resume_JPG_2.jpg"}
+          src="/assets/Eric_Heidel_Resume_JPG_2.jpg"
           alt="Page Number 2 of Eric Heidel's Resume"
           width={1000}
           height={1000}
+          priority
+          unoptimized
         />
       </div>
     </div>
