@@ -19,10 +19,12 @@ export default function Home() {
         <div className="mx-auto text-center">
           <div>
             <Image
-              src={"/assets/my_image.jpg"}
+              src="/assets/my_image.jpg"
               alt="Image of Eric Heidel"
               width={250}
               height={250}
+              priority
+              unoptimized
               className="rounded-3xl mb-4 mx-auto"
             />
             <h1 className="text-4xl font-semibold mb-4">Eric Heidel</h1>
