@@ -1,8 +1,16 @@
 import Image from "next/image"
+import Link from "next/link"
+import { FaHome } from "react-icons/fa"
 
 export default function Resume() {
   return (
     <div>
+      <div className="flex justify-center p-6 text-cyan-400 text-3xl text-center font-semibold">
+        <FaHome size={30} color="aqua" />
+        <div className="ml-4">
+          <Link href={"/"}>Home</Link>
+        </div>
+      </div>
       <div className="flex flex-col gap-4 items-center">
         <Image
           src="/assets/Eric_Heidel_Resume_JPG_1.jpg"
