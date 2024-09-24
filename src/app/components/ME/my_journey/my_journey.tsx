@@ -23,7 +23,7 @@ export default function MyJourney() {
         front-end portion of the program consisted of ReactJS, HTML, CSS, and
         JavaScript for the first three months. The second three months of the
         program focused on back-end. Nashville Software School offers two
-        different options for the back-end language. One being Python and
+        different options for the back-end language. One option being Python and
         Django, the other being C# and .NET. I chose the Python and Django route
         for my journey. The program was amazing and solidified what I already
         knew, I want to be a developer.
@@ -43,7 +43,7 @@ export default function MyJourney() {
         <br></br>
         <br></br>
         My current and future plans are to complete the NextJS version of my
-        project, and deploy it on my virtual machine. I also want to take my
+        project and deploy it on my virtual machine. I also want to take my
         back-end capstone, which has a Python/Django API, and rewrite the
         ReactJS to NextJS and get it deployed.
       </h4>

@@ -20,13 +20,13 @@ export default function MyPast() {
         from team sports to writing a simple .exe with Visual Basics 3 as a
         Freshman in high school. In my professional life, I am a seasoned
         touring video engineer with 15+ years of experience working in live
-        video production. The post 10 years I have spent touring with Garth
+        video production. The past 10 years I have spent touring with Garth
         Brooks and before that, Miranda Lambert and Toby Keith.
         <br></br>
         <br></br>
-        Team work, team leading, and reliability within your team is essential.
-        Any event, or gig as they say in the industry, your crew is an essential
-        part of success. We all rely on one another to complete our
+        Team work, team leadership, and reliability within your team is
+        essential. Any event, or gig as they say in the industry, your crew is
+        an essential part of success. We all rely on one another to complete our
         responsibilities to the fullest extent to deliver the best final product
         possible. If there is a weak link in the chain, the rest of the crew
         must step up to assist and teach the weaker link to become proficient in
@@ -55,18 +55,19 @@ export default function MyPast() {
         <br></br>
         <br></br>
         Building a mobile video production studio, on-site integration and
-        networking, in-show control of camera irises, and programming, deploying
-        and operating video servers playing video content during specific
-        moments during the concert are all part of the job. Recording and
+        networking, in-show control of camera irises and programming, deploying
+        and operating video servers, playing video content during specific
+        moments during the concert, are all part of the job. Recording and
         monitoring of all cameras and director&apos;s cut are also my
-        responsibility. Much like the ever growing world of development.
-        Maintaining and repairing equipment is an essential part of the job as
-        well because if your equipment isn&apos;t working, neither are you.
+        responsibility. All is this is very similar to the ever growing world of
+        software development. Maintaining and repairing equipment is an
+        essential part of the job as well because if your equipment isn&apos;t
+        working, neither are you.
         <br></br>
         <br></br>
-        The video production industry deals with a constant, quickly evolving
-        set of hardware and software that I am responsible for keeping up with,
-        learning, programming, and deploying.
+        Because the video production industry deals with a constant, quickly
+        evolving set of hardware and software, I am responsible for keeping up
+        with that evolution, learning, programming, and deploying it.
       </h4>
     </div>
   )

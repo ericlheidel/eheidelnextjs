@@ -19,7 +19,7 @@ export default function AboutMe() {
           I was born and raised in Signal Mountain, TN located in the
           Chattanooga, TN area. I currently live in Nashville, TN and have been
           here since 2009. Previous to moving to Nashville, I attended and
-          graduated from The University of Tennessee at Knoxville with a
+          graduated from The University of Tennessee at Knoxville in 2006 with a
           Bachelors in Arts for Speech Communications. After college I moved to
           Washington, DC for about two years where I began a crash course,
           trial-by-fire, video production learning experience. I quickly grew

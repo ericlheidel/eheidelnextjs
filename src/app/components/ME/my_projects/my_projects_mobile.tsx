@@ -108,7 +108,7 @@ export const PaintkillerzProjectMobile = () => {
           <br></br>
           Users can create an account, login, create a cart, add paint(s) to
           their cart, add payments options to their account, and purchase what
-          they have added to their cart. Users can also add image of their own
+          they have added to their cart. Users can also add images of their own
           art to their profile as well as browse other users&apos; art.
           <br></br>
           <br></br>I have not yet deployed Paintkillerz, but it is on my long
@@ -148,7 +148,7 @@ export const HeidelClockProjectMobile = () => {
           project, it seemed anything but simple. I wrote this during the summer
           before I started Nashville Software School. I chose to write this as a
           personal challenge, utilizing docs online to try and learn very basic
-          JS that I, at the time, had no what I was doing.
+          JS that I, at the time, had no idea what I was doing.
         </div>
       </div>
     </div>
