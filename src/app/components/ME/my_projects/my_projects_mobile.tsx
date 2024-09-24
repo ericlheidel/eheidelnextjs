@@ -94,7 +94,8 @@ export const PaintkillerzProjectMobile = () => {
         </div>
         <div className="ml-4 font-semibold">
           Front-end: <div className="inline font-normal">ReactJS</div>
-          <br></br>Back-end: <div className="inline font-normal">C#/.NET</div>
+          <br></br>Back-end:{" "}
+          <div className="inline font-normal">Python/Django</div>
         </div>
         <br></br>
         <div className="ml-6">
