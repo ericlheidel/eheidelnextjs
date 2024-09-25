@@ -20,11 +20,11 @@ export default function Loading() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <div className="flex items-center space-x-3">
         <div
-          className="animate-spin text-blue-500"
+          className="animate-spin text-[#1BFFFF]"
           style={{ fontSize: "3rem" }}
         >
           {showAltIcon ? (
-            <HiArrowPath className="h-12 w-12 text-blue-500" />
+            <HiArrowPath className="h-12 w-12 text-[#1BFFFF]" />
           ) : (
             <AiOutlineLoading3Quarters />
           )}

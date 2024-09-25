@@ -46,7 +46,7 @@ export const OmgShoesProjectMobile = () => {
             href="https://github.com/ericlheidel/OmgShoesCSharp/blob/main/README.md"
             target="_blank"
           >
-            <p className="inline text-blue-400">README.md.</p>
+            <p className="inline text-[#1BFFFF]">README.md.</p>
             <br></br>
           </Link>
           <br></br>Also, I am currently working on rewriting the Front-end of
@@ -56,7 +56,7 @@ export const OmgShoesProjectMobile = () => {
             href="https://github.com/ericlheidel/OmgShoesNextjs"
             target="_blank"
           >
-            <p className="inline text-blue-400">the repo.</p>
+            <p className="inline text-[#1BFFFF]">the repo.</p>
           </Link>
           <p className="text-pink-400 italic text-md">
             **this version will be mobile friendly

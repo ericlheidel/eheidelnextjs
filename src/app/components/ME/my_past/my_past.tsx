@@ -38,7 +38,7 @@ export default function MyPast() {
         <a
           href="https://www.wafb.com/2022/05/01/seismograph-records-earthquake-tiger-stadium-during-garth-brooks-concert/"
           target="_blank"
-          className="text-blue-400"
+          className="text-[#1BFFFF]"
         >
           sold out crowd of 103,000+ at Tiger Stadium at LSU that was seen on
           the school&apos;s seismograph
@@ -47,7 +47,7 @@ export default function MyPast() {
         <a
           href="https://tasteofcountry.com/garth-brooks-ryman-auditorium-sirus-xm/"
           target="_blank"
-          className="text-blue-400"
+          className="text-[#1BFFFF]"
         >
           intimate evening at The Ryman Auditorium in Nashville, TN
         </a>

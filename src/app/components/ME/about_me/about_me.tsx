@@ -48,7 +48,7 @@ export default function AboutMe() {
           painting. I would create geometric designs on thin wood using spray
           paint and painters tape. Again, a fun hobby that achieves that step by
           step process that I enjoy.{" "}
-          <a href="/paintings" className="text-blue-400">
+          <a href="/paintings" className="text-[#1BFFFF]">
             Feel free to check out some of my old paintings.
           </a> */}
         </h4>
