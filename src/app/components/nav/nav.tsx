@@ -33,7 +33,7 @@ export const Nav = () => {
         <div className="flex flex-row justify-between p-4">
           <div className="ml-12 text-2xl font-semibold">eheidel.com</div>
           <div className="flex flex-row p-6 text-2xl font-semibold">
-            <Link href="/resume">
+            <Link href="https://resume.eheidel.com">
               <div>My Resume</div>
             </Link>
             <Link href="#my_journey">
