@@ -16,7 +16,7 @@ export default function MyLinks() {
             <FaLinkedin size={50} color="aqua" />
           </div>
         </Link>
-        <Link href="/resume">
+        <Link href="https://resume.eheidel.com">
           <div className="my-auto mr-2 hover:color:red">
             <IoDocumentText
               size={50}
