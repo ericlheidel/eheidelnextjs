@@ -69,7 +69,7 @@ export const Nav = () => {
               <ul className="py-2">
                 <li>
                   <Link
-                    href="/resume"
+                    href="https://resume.eheidel.com"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
