@@ -126,7 +126,7 @@ export const HeidelClockProjectMobile = () => {
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
           <div className="ml-2 text-xl font-semibold">HeidelClock</div>
-          <Link href="https://heidelclock.netlify.app" target="_blank">
+          <Link href="https://clock.eheidel.com" target="_blank">
             <div className="my-auto ml-12">
               <IoDocumentText size={25} color="aqua" />
             </div>
