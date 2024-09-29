@@ -42,15 +42,15 @@ export default function AboutMe() {
           grade when I was given my first turntable for my birthday. I even have
           a battery powered, build-it-yourself turntable with built in speakers
           for listening out on the porch or patio.
-          {/* <br></br>
+          <br></br>
           <br></br>
           Although I haven&apos;t done it in a while, I was very big into
           painting. I would create geometric designs on thin wood using spray
           paint and painters tape. Again, a fun hobby that achieves that step by
-          step process that I enjoy.{" "}
-          <a href="/paintings" className="text-[#1BFFFF]">
+          step process that I enjoy and is also creative outlet.{" "}
+          <a href="https://paintings.eheidel.com" className="text-[#1BFFFF]">
             Feel free to check out some of my old paintings.
-          </a> */}
+          </a>
         </h4>
       </div>
     </div>
