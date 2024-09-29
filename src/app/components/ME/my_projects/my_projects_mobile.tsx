@@ -148,7 +148,7 @@ export const HeidelClockProjectMobile = () => {
           project, it seemed anything but simple. I wrote this during the summer
           before I started Nashville Software School. I chose to write this as a
           personal challenge, utilizing docs online to try and learn very basic
-          JS that I, at the time, had no idea what I was doing.
+          JS when I, at the time, had no idea what I was doing.
         </div>
       </div>
     </div>
