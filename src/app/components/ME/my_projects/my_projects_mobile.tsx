@@ -38,10 +38,10 @@ export const OmgShoesProjectMobile = () => {
           <br></br>
           <br></br>
           OMG Shoes is a community where users can keep track of their sneaker
-          collection and communicate with other users of their collections.
+          collection and communicate with other users about their collections.
           <br></br>
           <br></br>I deployed this project on my own using a virtual machine.
-          Full write-up in the{" "}
+          There is a full write-up in the{" "}
           <Link
             href="https://github.com/ericlheidel/OmgShoesCSharp/blob/main/README.md"
             target="_blank"
@@ -59,7 +59,7 @@ export const OmgShoesProjectMobile = () => {
             <p className="inline text-[#1BFFFF]">the repo.</p>
           </Link>
           <p className="text-pink-400 italic text-md">
-            **this version will be mobile friendly
+            **this version is mobile friendly
           </p>
         </div>
       </div>
@@ -100,7 +100,6 @@ export const PaintkillerzProjectMobile = () => {
         <br></br>
         <div className="ml-6">
           This is my Nashville Software School Full-Stack Capstone Project.
-          Software School.
           <br></br>
           <br></br>Paintkillerz is an eCommerce site where users can browse and
           purchase professional-grade spray paint.

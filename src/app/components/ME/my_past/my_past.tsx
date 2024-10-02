@@ -40,7 +40,7 @@ export default function MyPast() {
           target="_blank"
           className="text-[#1BFFFF]"
         >
-          sold out crowd of 103,000+ at Tiger Stadium at LSU that was seen on
+          sold out crowd of 103,000+ in Tiger Stadium at LSU that was seen on
           the school&apos;s seismograph
         </a>
         , to an{" "}
@@ -55,11 +55,11 @@ export default function MyPast() {
         <br></br>
         <br></br>
         Building a mobile video production studio, on-site integration and
-        networking, in-show control of camera irises and programming, deploying
-        and operating video servers, playing video content during specific
-        moments during the concert, are all part of the job. Recording and
+        networking, in-show control of camera irises, programming, deploying and
+        operating video servers, and playing video content during specific
+        moments of an event or concert are all part of the job. Recording and
         monitoring of all cameras and director&apos;s cut are also my
-        responsibility. All is this is very similar to the ever growing world of
+        responsibility. All of this is very similar to the ever growing world of
         software development. Maintaining and repairing equipment is an
         essential part of the job as well because if your equipment isn&apos;t
         working, neither are you.

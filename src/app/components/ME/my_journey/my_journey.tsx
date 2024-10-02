@@ -29,23 +29,23 @@ export default function MyJourney() {
         knew, I want to be a developer.
         <br></br>
         <br></br>I completed the program in May of 2024. After completing the
-        program, I immediately began working and learning through their C# and
-        .NET curriculum. Once that was completed, I revised my capstone project
-        from the first half of the program. The original version of the capstone
-        included a ReactJS front-end and a simple JSON server for the back-end
-        and database. I then wrote a C#/.NET Api for my front-end capstone and
+        program, I immediately began working through their C#/.NET curriculum.
+        Once that was completed, I revised my capstone project from the first
+        half of the program. The original version of the capstone included a
+        ReactJS front-end and a simple JSON server for the back-end and
+        database. I then wrote a C#/.NET API for my front-end capstone and
         rewrote the front-end to communicate with my new API. My next step was
         to learn more about deployment. I chose to host my project on a virtual
         machine. That was a great learning experience in and of itself. I am
-        currently learning NextJS and rewriting my ReactJS capstone. I have been
-        unable to pull myself away from the computer in my free time since
+        currently learning NextJS and rewriting my ReactJS capstone. I can
+        barely pull myself away from the computer in my free time since
         completing the program. I just can&apos;t get enough.
         <br></br>
         <br></br>
         My current and future plans are to complete the NextJS version of my
         project and deploy it on my virtual machine. I also want to take my
         back-end capstone, which has a Python/Django API, and rewrite the
-        ReactJS to NextJS and get it deployed.
+        ReactJS to NextJS and deploy it as well.
       </h4>
     </div>
   )
