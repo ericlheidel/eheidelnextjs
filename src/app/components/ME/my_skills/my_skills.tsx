@@ -35,21 +35,6 @@ export default function MySkillsCoding() {
         </div>
         {/* ⬆️ MY SKILLs --> //rr CODING ⬆️ */}
 
-        {/* ⬇️ MY SKILLs --> //gg COMPUTER ⬇️ */}
-        {/* <div className="w-full">
-          <div className="mt-4 mb-2 w-full border border-gray-500"></div>
-          <h4 className="mt-4 mb-4 ml-4 text-2xl font-semibold text-left">
-            Computer
-          </h4>
-        </div>
-        <div className="md:hidden block">
-          <MySkillsComputerMobile />
-        </div>
-        <div className="md:block hidden">
-          <MySkillsComputerDesktop />
-        </div> */}
-        {/* ⬆️ MY SKILLs --> //gg COMPUTER ⬆️ */}
-
         {/* ⬇️ MY SKILLs --> //mm OTHER ⬇️ */}
         <div className="w-full">
           <div className="mt-4 mb-2 w-full border border-gray-500"></div>

@@ -27,11 +27,11 @@ export const Nav = () => {
   }, [])
 
   return (
-    <>
+    <div>
       {/* //+ NON-MOBILE */}
       <div className="hidden md:block">
         <div className="flex flex-row justify-between p-4">
-          <div className="ml-12 text-2xl font-semibold">eheidel.com</div>
+          <div className="p-6 ml-12 text-2xl font-semibold">eheidel.com</div>
           <div className="flex flex-row p-6 text-2xl font-semibold">
             <Link href="https://resume.eheidel.com">
               <div>My Resume</div>
@@ -45,11 +45,11 @@ export const Nav = () => {
             <Link href="#about_me">
               <div className="ml-8">About Me</div>
             </Link>
-            <Link href="#my_skills">
-              <div className="ml-8">My Skills</div>
-            </Link>
             <Link href="#my_projects">
-              <div className="ml-8 mr-12">My Projects</div>
+              <div className="ml-8">My Projects</div>
+            </Link>
+            <Link href="#my_skills">
+              <div className="ml-8 mr-12">My Skills</div>
             </Link>
           </div>
         </div>
@@ -113,17 +113,6 @@ export const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    href="#my_skills"
-                    className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
-                    onClick={() => {
-                      setShowDropdown(false)
-                    }}
-                  >
-                    My Skills
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="#my_projects"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
@@ -133,11 +122,22 @@ export const Nav = () => {
                     My Projects
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="#my_skills"
+                    className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
+                    onClick={() => {
+                      setShowDropdown(false)
+                    }}
+                  >
+                    My Skills
+                  </Link>
+                </li>
               </ul>
             </div>
           )}
         </div>
       </div>
-    </>
+    </div>
   )
 }
