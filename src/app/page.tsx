@@ -1,3 +1,4 @@
+import React from "react"
 import Image from "next/image"
 import { color1 } from "../../utility"
 import MyLinks from "./components/my_links/my_links"

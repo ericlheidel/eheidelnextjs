@@ -90,6 +90,36 @@ export const codingSkills = [
     name: "asp.net core",
     src: "/assets/skills/--coding/aspnetcore.png",
   },
+  {
+    id: 18,
+    name: "Adobe Photoshop",
+    src: "/assets/skills/--computer/adobe_photoshop.png",
+  },
+  {
+    id: 19,
+    name: "Adobe Premier Pro",
+    src: "/assets/skills/--computer/adobe_premier_pro.png",
+  },
+  {
+    id: 20,
+    name: "Adobe Media Encoder",
+    src: "/assets/skills/--computer/adobe_media_encoder.png",
+  },
+  {
+    id: 21,
+    name: "Companion",
+    src: "/assets/skills/--computer/companion.png",
+  },
+  {
+    id: 22,
+    name: "BetterTouchTool",
+    src: "/assets/skills/--computer/bettertouchtool.png",
+  },
+  {
+    id: 23,
+    name: "Quicksilver",
+    src: "/assets/skills/--computer/quicksilver.png",
+  },
 ]
 
 export const computerSkills = [

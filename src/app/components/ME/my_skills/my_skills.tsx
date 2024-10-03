@@ -1,13 +1,8 @@
 import Link from "next/link"
 import { FaHome } from "react-icons/fa"
-import {
-  MySkillsCodingMobile,
-  MySkillsComputerMobile,
-  MySkillsOtherMobile,
-} from "./my_skills_mobile"
+import { MySkillsCodingMobile, MySkillsOtherMobile } from "./my_skills_mobile"
 import {
   MySkillsCodingDesktop,
-  MySkillsComputerDesktop,
   MySkillsOtherDesktop,
 } from "./my_skills_desktop"
 
@@ -41,7 +36,7 @@ export default function MySkillsCoding() {
         {/* ⬆️ MY SKILLs --> //rr CODING ⬆️ */}
 
         {/* ⬇️ MY SKILLs --> //gg COMPUTER ⬇️ */}
-        <div className="w-full">
+        {/* <div className="w-full">
           <div className="mt-4 mb-2 w-full border border-gray-500"></div>
           <h4 className="mt-4 mb-4 ml-4 text-2xl font-semibold text-left">
             Computer
@@ -52,14 +47,14 @@ export default function MySkillsCoding() {
         </div>
         <div className="md:block hidden">
           <MySkillsComputerDesktop />
-        </div>
+        </div> */}
         {/* ⬆️ MY SKILLs --> //gg COMPUTER ⬆️ */}
 
         {/* ⬇️ MY SKILLs --> //mm OTHER ⬇️ */}
         <div className="w-full">
           <div className="mt-4 mb-2 w-full border border-gray-500"></div>
           <h4 className="mt-4 mb-2 ml-4 text-2xl font-semibold text-left">
-            Other
+            Video Engineering
           </h4>
         </div>
         <div className="md:hidden block">
