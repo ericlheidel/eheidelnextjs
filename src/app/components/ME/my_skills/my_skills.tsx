@@ -24,7 +24,7 @@ export default function MySkillsCoding() {
         <div className="mt-2 mb-2 w-full border border-gray-500"></div>
         <div className="w-fit">
           <h4 className="mt-4 mb-4 ml-4 text-2xl font-semibold text-left">
-            Coding
+            Software Engineering
           </h4>
         </div>
         <div className="md:hidden">
