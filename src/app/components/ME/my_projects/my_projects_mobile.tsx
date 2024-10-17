@@ -9,7 +9,8 @@ export const OmgShoesProjectMobile = () => {
         <div className="mb-2 flex flex-row">
           <div className="ml-2 text-xl font-semibold">OMG Shoes</div>
           <Link href="https://www.omgshoes.eheidel.com" target="_blank">
-            <div className="my-auto ml-12">
+            <div className="my-auto ml-6 flex flex-row">
+              <p className="mr-2">Site:</p>
               <IoDocumentText size={25} color="aqua" />
             </div>
           </Link>
@@ -17,7 +18,8 @@ export const OmgShoesProjectMobile = () => {
             href="https://github.com/ericlheidel/OmgShoesCSharp"
             target="_blank"
           >
-            <div className="my-auto ml-6">
+            <div className="my-auto ml-4 flex flex-row">
+              <p className="mr-2">GH:</p>
               <FaGithub size={25} color="aqua" />
             </div>
           </Link>
@@ -73,11 +75,17 @@ export const PaintkillerzProjectMobile = () => {
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
           <div className="ml-2 text-xl font-semibold">Paintkillerz</div>
+          <Link href="https://www.paintkillerz.eheidel.com" target="_blank">
+            <div className="my-auto ml-4 flex flex-row">
+              <p className="mr-2">Site:</p>
+              <IoDocumentText size={25} color="aqua" />
+            </div>
+          </Link>
           <Link
             href="https://github.com/ericlheidel/epaint-client"
             target="_blank"
           >
-            <div className="my-auto ml-8 flex flex-row">
+            <div className="my-auto ml-2 flex flex-row">
               <p className="mr-2">FE:</p>
               <FaGithub size={25} color="aqua" />
             </div>
@@ -86,7 +94,7 @@ export const PaintkillerzProjectMobile = () => {
             href="https://github.com/ericlheidel/epaint-api"
             target="_blank"
           >
-            <div className="my-auto ml-6 flex flex-row">
+            <div className="my-auto ml-2 flex flex-row">
               <p className="mr-2">BE:</p>
               <FaGithub size={25} color="aqua" />
             </div>
@@ -110,9 +118,10 @@ export const PaintkillerzProjectMobile = () => {
           they have added to their cart. Users can also add images of their own
           art to their profile as well as browse other users&apos; art.
           <br></br>
-          <br></br>I have not yet deployed Paintkillerz, but it is on my long
-          todo list. My focus shifted to C#/.NET, DigitalOcean Droplets, and
-          learning how to deploy projects on my own, and now, NextJS.
+          <br></br>My next moves with this project will be styling it
+          mobile-friendly with TailwindCSS. I would also like to rewrite the
+          ReactJS with Next.js after I complete the Next.js version of my OMG,
+          Shoes... project.
         </div>
       </div>
     </div>
@@ -126,7 +135,8 @@ export const HeidelClockProjectMobile = () => {
         <div className="mb-2 flex flex-row">
           <div className="ml-2 text-xl font-semibold">HeidelClock</div>
           <Link href="https://clock.eheidel.com" target="_blank">
-            <div className="my-auto ml-12">
+            <div className="my-auto ml-6 flex flex-row">
+              <p className="mr-2">Site:</p>
               <IoDocumentText size={25} color="aqua" />
             </div>
           </Link>
@@ -134,7 +144,8 @@ export const HeidelClockProjectMobile = () => {
             href="https://github.com/ericlheidel/HeidelClock"
             target="_blank"
           >
-            <div className="my-auto ml-6">
+            <div className="my-auto ml-6 flex flex-row">
+              <p className="mr-2">GH:</p>
               <FaGithub size={25} color="aqua" />
             </div>
           </Link>
