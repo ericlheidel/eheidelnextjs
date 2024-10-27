@@ -2,12 +2,16 @@ import React from "react"
 import Image from "next/image"
 import { color1 } from "../../utility"
 import MyLinks from "./components/my_links/my_links"
-import AboutMe from "./components/ME/about_me/about_me"
-import MyJourney from "./components/ME/my_journey/my_journey"
-import MyPast from "./components/ME/my_past/my_past"
+// import MyJourney from "./components/ME/my_journey/my_journey"
+// import MyPast from "./components/ME/my_past/my_past"
+// import AboutMe from "./components/ME/about_me/about_me"
+// import MyProjects from "./components/ME/my_projects/my_projects"
 import MySkills from "./components/ME/my_skills/my_skills"
-import MyProjects from "./components/ME/my_projects/my_projects"
 import { Nav } from "./components/nav/nav"
+import Present from "./components/ME_2nd/1_present"
+import Past from "./components/ME_2nd/2_past"
+import Future from "./components/ME_2nd/3_future"
+import Projects from "./components/ME_2nd/4_projects"
 
 export default function Home() {
   return (
@@ -35,25 +39,44 @@ export default function Home() {
             <MyLinks />
           </div>
         </div>
-        <div
+        {/* <div
           id="my_journey"
           className="md:w-1/2 w-[95%] h-fit text-center leading-relaxed"
         >
           <MyJourney />
-        </div>
-        <div id="my_past" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
-          <MyPast />
-        </div>
-        <div id="about_me" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
-          <AboutMe />
-        </div>
+        </div> */}
         <div
+          id="present"
+          className="md:w-1/2 w-[95%] h-fit text-center leading-relaxed"
+        >
+          <Present />
+        </div>
+        {/* <div id="my_past" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <MyPast />
+        </div> */}
+        <div id="past" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <Past />
+        </div>
+        {/* <div id="about_me" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <AboutMe />
+        </div> */}
+        <div id="future" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <Future />
+        </div>
+        {/* <div
           id="my_projects"
           className="md:w-1/2 w-[95%] mt-6 h-fit text-center"
         >
           <MyProjects />
+        </div> */}
+        <div id="projects" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <Projects />
         </div>
-        <div id="my_skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+        {/* <div id="my_skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
+          <MySkills />
+          <div className="mt-6 mb-4 w-full border border-gray-500"></div>
+        </div> */}
+        <div id="skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <MySkills />
           <div className="mt-6 mb-4 w-full border border-gray-500"></div>
         </div>

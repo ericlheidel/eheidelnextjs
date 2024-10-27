@@ -34,22 +34,22 @@ export const Nav = () => {
           <div className="p-6 ml-12 text-2xl font-semibold">eheidel.com</div>
           <div className="flex flex-row p-6 text-2xl font-semibold">
             <Link href="https://resume.eheidel.com">
-              <div>My Resume</div>
+              <div>Resume</div>
             </Link>
-            <Link href="#my_journey">
-              <div className="ml-8">My Journey</div>
+            <Link href="#present">
+              <div className="ml-8">Present</div>
             </Link>
-            <Link href="#my_past">
-              <div className="ml-8">My Past</div>
+            <Link href="#past">
+              <div className="ml-8">Past</div>
             </Link>
-            <Link href="#about_me">
-              <div className="ml-8">About Me</div>
+            <Link href="#future">
+              <div className="ml-8">Future</div>
             </Link>
-            <Link href="#my_projects">
-              <div className="ml-8">My Projects</div>
+            <Link href="#projects">
+              <div className="ml-8">Projects</div>
             </Link>
-            <Link href="#my_skills">
-              <div className="ml-8 mr-12">My Skills</div>
+            <Link href="#skills">
+              <div className="ml-8 mr-12">Skills</div>
             </Link>
           </div>
         </div>
@@ -75,62 +75,62 @@ export const Nav = () => {
                       setShowDropdown(false)
                     }}
                   >
-                    My Resume
+                    Resume
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#my_journey"
+                    href="#present"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
                     }}
                   >
-                    My Journey
+                    Present
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#my_past"
+                    href="#past"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
                     }}
                   >
-                    My Past
+                    Past
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#about_me"
+                    href="#future"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
                     }}
                   >
-                    About Me
+                    Future
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#my_projects"
+                    href="#projects"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
                     }}
                   >
-                    My Projects
+                    Projects
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#my_skills"
+                    href="#skills"
                     className="block px-2 py-4 text-xl text-gray-800 hover:bg-gray-200"
                     onClick={() => {
                       setShowDropdown(false)
                     }}
                   >
-                    My Skills
+                    Skills
                   </Link>
                 </li>
               </ul>
