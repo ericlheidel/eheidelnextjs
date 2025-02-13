@@ -39,43 +39,21 @@ export default function Home() {
             <MyLinks />
           </div>
         </div>
-        {/* <div
-          id="my_journey"
-          className="md:w-1/2 w-[95%] h-fit text-center leading-relaxed"
-        >
-          <MyJourney />
-        </div> */}
         <div
           id="present"
           className="md:w-1/2 w-[95%] h-fit text-center leading-relaxed"
         >
           <Present />
         </div>
-        {/* <div id="my_past" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
-          <MyPast />
-        </div> */}
         <div id="past" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <Past />
         </div>
-        {/* <div id="about_me" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
-          <AboutMe />
-        </div> */}
         <div id="future" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <Future />
         </div>
-        {/* <div
-          id="my_projects"
-          className="md:w-1/2 w-[95%] mt-6 h-fit text-center"
-        >
-          <MyProjects />
-        </div> */}
         <div id="projects" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <Projects />
         </div>
-        {/* <div id="my_skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
-          <MySkills />
-          <div className="mt-6 mb-4 w-full border border-gray-500"></div>
-        </div> */}
         <div id="skills" className="md:w-1/2 w-[95%] mt-6 h-fit text-center">
           <MySkills />
           <div className="mt-6 mb-4 w-full border border-gray-500"></div>
@@ -83,6 +61,7 @@ export default function Home() {
         <footer className="mt-2">
           <p className="text-center">Created by Eric Heidel, 2024</p>
           <p className="mt-2 text-center">Created with NextJS</p>
+          <p className="mt-2 text-center">Deployed with Nginx</p>
           <p className="mt-2 text-center">Styled with TailwindCSS</p>
         </footer>
       </div>

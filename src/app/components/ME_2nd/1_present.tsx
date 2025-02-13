@@ -30,11 +30,13 @@ export default function Present() {
             Written a C#/.NET API for my ReactJS/JSON server capstone and
             deployed the project on a virtual machine
           </li>
-          <li className="mt-2">
-            Begun learning NextJS and rewriting the ReactJS portion of that
-            project
-          </li>
+          <li className="mt-2">Begun learning and practicing NextJS</li>
           <li className="mt-2">Deployed my Full-Stack Python/Django project</li>
+          <li className="mt-2">
+            Begun working with React Native. I am building a mobile application
+            for video technicians to be able to make specific calculations while
+            on-site.
+          </li>
         </ol>
       </h4>
     </div>

@@ -6,7 +6,9 @@ export const PaintingsMobileTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">Paintings</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            My Paintings
+          </div>
           <Link href="https://paintings.eheidel.com">
             <div className="my-auto ml-6 flex flex-row">
               <p className="mr-2">Site:</p>
@@ -31,7 +33,9 @@ export const PaintingsDesktopTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">Paintings</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            My Paintings
+          </div>
           <Link href="https://paintings.eheidel.com">
             <div className="my-auto ml-12 flex flex-row">
               <p className="mr-2">Site:</p>

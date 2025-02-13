@@ -7,7 +7,9 @@ export const HeidelClockProjectMobileTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">HeidelClock</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            HeidelClock
+          </div>
           <Link href="https://clock.eheidel.com" target="_blank">
             <div className="my-auto ml-6 flex flex-row">
               <p className="mr-2">Site:</p>
@@ -43,7 +45,9 @@ export const HeidelClockProjectDesktopTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">HeidelClock</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            HeidelClock
+          </div>
           <Link href="https://clock.eheidel.com" target="_blank">
             <div className="my-auto ml-12 flex flex-row">
               <p className="mr-2">Site:</p>

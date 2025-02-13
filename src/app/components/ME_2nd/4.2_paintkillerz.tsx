@@ -6,7 +6,7 @@ export const PaintkillerzProjectMobileTwo = () => {
   return (
     <div className="w-fit text-left">
       <div className="mb-2 flex flex-row">
-        <div className="ml-2 text-xl font-semibold">Paintkillerz</div>
+        <div className="ml-2 text-xl font-semibold underline">Paintkillerz</div>
         <Link href="https://www.paintkillerz.eheidel.com" target="_blank">
           <div className="my-auto ml-4 flex flex-row">
             <p className="mr-2">Site:</p>
@@ -34,6 +34,9 @@ export const PaintkillerzProjectMobileTwo = () => {
         <br />
         Back-end: <span className="font-normal">Python/Django</span>
       </div>
+      <p className="ml-4 italic text-pink-400">
+        **currently not mobile friendly
+      </p>
       <br />
       <div className="ml-6">
         My Full-Stack Capstone from Nashville Software School, Paintkillerz is
@@ -57,7 +60,9 @@ export const PaintkillerzProjectDesktopTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">Paintkillerz</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            Paintkillerz
+          </div>
           <Link href="https://www.paintkillerz.eheidel.com" target="_blank">
             <div className="my-auto ml-12 flex flex-row">
               <p className="mr-2">Site:</p>
@@ -88,6 +93,9 @@ export const PaintkillerzProjectDesktopTwo = () => {
           <br></br>Back-end:{" "}
           <div className="inline font-normal">Python/Django</div>
         </div>
+        <p className="ml-4 italic text-pink-400">
+          **currently not mobile friendly
+        </p>
         <br></br>
         <div className="ml-6 text-xl">
           My Full-Stack Capstone from Nashville Software School, Paintkillerz is

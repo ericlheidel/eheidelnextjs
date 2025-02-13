@@ -6,7 +6,9 @@ export const OmgShoesProjectMobileTwo = () => {
   return (
     <div className="w-fit text-left">
       <div className="mb-2 flex flex-row">
-        <div className="ml-2 text-xl font-semibold">OMG, Shoes...</div>
+        <div className="ml-2 text-xl font-semibold underline">
+          OMG, Shoes...
+        </div>
         <Link href="https://www.omgshoes.eheidel.com" target="_blank">
           <div className="my-auto ml-6 flex flex-row">
             <p className="mr-2">Site:</p>
@@ -28,7 +30,9 @@ export const OmgShoesProjectMobileTwo = () => {
         <br />
         Back-end: <span className="font-normal">C#/.NET</span>
       </div>
-      <p className="ml-4 italic text-pink-400">**not mobile-friendly</p>
+      <p className="ml-4 italic text-pink-400">
+        **currently not mobile-friendly
+      </p>
       <br />
       <div className="ml-6">
         My front-end capstone from Nashville Software School, &apos;OMG,
@@ -53,9 +57,6 @@ export const OmgShoesProjectMobileTwo = () => {
           <span className="text-[#1BFFFF]">here</span>
         </Link>
         ).{" "}
-        <p className="text-pink-400 italic text-md">
-          **this version will be mobile friendly
-        </p>
       </div>
     </div>
   )
@@ -66,7 +67,9 @@ export const OmgShoesProjectDesktopTwo = () => {
     <div>
       <div className="w-fit text-left">
         <div className="mb-2 flex flex-row">
-          <div className="ml-2 text-xl font-semibold">OMG, Shoes...</div>
+          <div className="ml-2 text-xl font-semibold underline">
+            OMG, Shoes...
+          </div>
           <Link href="https://www.omgshoes.eheidel.com" target="_blank">
             <div className="my-auto ml-12 flex flex-row">
               <p className="mr-2">Site:</p>
@@ -88,7 +91,7 @@ export const OmgShoesProjectDesktopTwo = () => {
           <br></br>Back-end: <div className="inline font-normal">C#/.NET</div>
         </div>
         <p className="ml-4 italic text-pink-400">
-          **this version is not mobile friendly
+          **currently not mobile friendly
         </p>
         <br></br>
         <div className="ml-6 text-xl">
@@ -117,9 +120,6 @@ export const OmgShoesProjectDesktopTwo = () => {
             target="_blank"
           ></Link>
           ).{" "}
-          <p className="text-pink-400 italic text-base">
-            **this version will be mobile friendly
-          </p>
         </div>
       </div>
     </div>
